@@ -1,3 +1,10 @@
+/*
+    1
+    1 2
+    1 2 3
+    1 2 3 4 
+    1 2 3 4 5
+*/
 class HalfPyramidWithNumbers{
     public static void main(String[] args) {
         byte i,j;
