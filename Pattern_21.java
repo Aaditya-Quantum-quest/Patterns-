@@ -3,7 +3,7 @@
             2      2
         3      3      3
     4      4      4      4
-5      5      5      5      5
+5      5       5      5      5
 
  */
 
@@ -13,7 +13,7 @@ class Pattern_21{
         byte n=1;
         for (i=4;i>=0;i++){
             for (j=i;j>=1;j++){
-                System.out.print("   ");
+                System.out.print(" ");
             }
             for (k=n;k>=1;k--){
                 System.out.print(" "+n+" ");

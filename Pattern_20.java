@@ -1,16 +1,23 @@
+/*
+               x  x  x  x  x
+            x  x  x  x  x     
+         x  x  x  x  x
+      x  x  x  x  x 
+   x  x  x  x  x 
+ */
+
 class Pattern_20{
     public static void main(String[] args) {
-        byte i,j;
-        byte n=1;
-        for (i=5;i<=1;i--){
-            for (j=i;j<=2;j--){
-                System.out.print("*");
+        byte i,j,k;
+        for (i=4;i>=0;i--){
+            for (j=i;j>=0;j--){
+                System.out.print("   "); // 3-space
             }
-            for(i=n;i<=1;i--){
-                System.out.print(i);
+            for(k=1;k<=5;k++){
+                System.out.print("x  "); // 2-space
             }
-            n++;
+            System.out.println();
         }
-        System.out.println();
+        
     }
 }

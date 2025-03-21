@@ -1,4 +1,13 @@
-class Zero-OneTriangle{
+/*
+     1
+     0 1 
+     0 1 0
+     1 0 1 0
+     1 0 1 0 1
+     
+ */
+
+class ZeroOneTriangle{
     public static void main(String[] args) {
         byte i,j;
         byte x=1;

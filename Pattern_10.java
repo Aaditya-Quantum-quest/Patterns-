@@ -18,8 +18,9 @@ class Ptrn_10{
         byte x;
         for (byte i=1;i<=n;i++) {												
             x=i;
-            for (byte j=1;j<=5;j++) {System.out.printf("%2d ", x);
-               x= (byte) (x+n);
+            for (byte j=1;j<=5;j++) {
+               System.out.printf("%2d ", x);
+               x = (byte) (x+n);
             }
             System.out.print("\n");
         }
